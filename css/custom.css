@@ -1,0 +1,44 @@
+html,
+body {
+    font-family: 'Lato', Helvetica, sans-serif;
+    background-color: #FCA90F;
+}
+
+.lee-header {
+    font-family: 'Josefin Slab', Arial, serif;
+    color: #746C73;
+    text-transform: uppercase;
+    border: 10px solid #746C73;
+    padding: 50px;
+    width: auto;
+    margin-top: 50px;
+}
+
+.lee-header > h1 {
+    font-size: 100px;
+    line-height: 80%;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+    .lee-header > h1 {
+        font-size: 75px;
+        line-height: 80%;
+    }
+}
+ 
+@media screen and (max-width: 568px) {
+    .lee-header > h1 {
+        font-size: 50px;
+        line-height: 30%;
+    }
+}
+
+
+.lee-thumb {
+    display: inline-block;
+    vertical-align: top;
+    top: 5px;
+}
