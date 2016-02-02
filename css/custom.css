@@ -12,6 +12,7 @@ body {
     padding: 50px;
     width: auto;
     margin-top: 50px;
+    margin-right: 0px;
 }
 
 .lee-header > h1 {
@@ -36,6 +37,15 @@ body {
     }
 }
 
+.sidebar-icons {
+    font-size: 50px;
+    list-style-type: none;
+    padding: 0px;
+    width: 5px;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
 .lee-thumb {
     display: inline-block;
