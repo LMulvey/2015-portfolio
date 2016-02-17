@@ -1,11 +1,13 @@
 html,
 body {
     font-family: 'Lato', Helvetica, sans-serif;
-    background-color: #FCA90F;
+    background-color: #402F3F;
+    color: #FABEA0;
 }
 
 .lee-header {
-    border: 10px solid #746C73;
+    border: 10px solid #6D7D64;
+    background-color: #A6B890;
     padding: 50px;
     margin-top: 50px;
     margin-right: 0px;
@@ -14,7 +16,7 @@ body {
 .lee-header > h1 {
     font-family: 'Josefin Slab', Arial, serif;
     font-weight: 700;
-    color: #746C73;
+    color: #402F3F;
     text-transform: uppercase;
     font-size: 100px;
     line-height: 80%;
@@ -32,6 +34,23 @@ body {
     margin-left: 0px;
     margin-right: 0px;
 }
+
+a {
+    color: #B9485A;
+}
+
+a:visited {
+    color: #B9485A;
+}
+
+a:hover {
+    color: #E2A9A1;
+}
+
+a:active {
+    color: #E08582;
+}
+
 
 .lee-thumb {
     display: inline-block;
@@ -57,6 +76,7 @@ body {
     background-color: #FFBC41;
     padding: 20px;
     margin-bottom: 75px;
+    color: #333;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
 }
 
