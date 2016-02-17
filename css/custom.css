@@ -5,36 +5,22 @@ body {
 }
 
 .lee-header {
-    font-family: 'Josefin Slab', Arial, serif;
-    color: #746C73;
-    text-transform: uppercase;
     border: 10px solid #746C73;
     padding: 50px;
-    width: auto;
     margin-top: 50px;
     margin-right: 0px;
 }
 
 .lee-header > h1 {
+    font-family: 'Josefin Slab', Arial, serif;
+    font-weight: 700;
+    color: #746C73;
+    text-transform: uppercase;
     font-size: 100px;
     line-height: 80%;
-    font-weight: 700;
     text-align: center;
     display: inline-block;
-}
-
-@media screen and (max-width: 768px) {
-    .lee-header > h1 {
-        font-size: 75px;
-        line-height: 80%;
-    }
-}
- 
-@media screen and (max-width: 568px) {
-    .lee-header > h1 {
-        font-size: 50px;
-        line-height: 30%;
-    }
+    margin-right: 30px;
 }
 
 .sidebar-icons {
@@ -42,7 +28,7 @@ body {
     list-style-type: none;
     padding: 0px;
     width: 5px;
-    margin-top: 50px;
+    margin-top: 60px;
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -50,5 +36,114 @@ body {
 .lee-thumb {
     display: inline-block;
     vertical-align: top;
-    top: 5px;
+    margin-top: 15px;
+    width: 20%;
 }
+
+.lee-header-icon-alt {
+    display: none;
+}
+
+.lee-header-subtext {
+    font-size: 28px;
+}
+
+.lee-header-coming-soon {
+    margin-top: 75px;
+    font-size: 30px;
+}
+
+.lee-header-coming-soon > #cta-links {
+    background-color: #FFBC41;
+    padding: 20px;
+    margin-bottom: 75px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+}
+
+.text-shadow {
+    text-shadow: 2px 1px 0px rgba(0,0,0,0.5);
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .sidebar-icons {
+        display: none
+    }
+    
+    .lee-thumb {
+        width: 15%;
+        margin-top: 35px;
+    }
+    
+    .lee-header {
+        padding: 20px;
+    }
+    
+    .lee-header > h1 {
+        font-size: 70px;
+        line-height: 80%;
+    }
+    
+    .lee-header-icon-alt {
+        display: inline;
+        font-size: 35px;
+    }
+    
+    .lee-header-icon-ea {
+        margin-right: 35px;
+    }
+    
+    .lee-header-subtext {
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .lee-header > h1 {
+        font-size: 40px;
+        line-height: 80%;
+    }
+    
+    .lee-thumb {
+        margin-top: 15px;
+    }
+    
+    .lee-header {
+        padding: 20px;
+    }
+    
+    .lee-header-icon-alt {
+        font-size: 25px;
+    }
+}
+ 
+@media screen and (max-width: 570px) {
+    .lee-header > h1 {
+        font-size: 35px;
+        line-height: 80%;
+    }
+        
+   .lee-header-icon-alt {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lee-header > h1 {
+        font-size: 25px;
+        line-height: 80%;
+    }
+    
+    
+    .lee-header {
+        padding: 5px;
+    }
+        
+   .lee-header-icon-alt {
+        font-size: 20px;
+    }
+}
+
+

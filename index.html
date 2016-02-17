@@ -3,16 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta viewport="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <meta viewport="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <title>Lee Mulvey // web developer, filmmaker, musician, designer, creator.</title>
+        
+        <!-- Normalize all the things! -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel="stylesheet" type="text/css" />
         
         <!-- Fancy fonts. -->
         <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700" rel="stylesheet"  type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel='stylesheet' type="text/css" />
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         
-        <!-- Normalize all the things! -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel="stylesheet" type="text/css" />
         <!-- I love me some Bootstrap. -->
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         
@@ -29,11 +30,18 @@
         <div class="container">
             <header>
                 <div class="row">
-                    <div class="col-md-3 col-md-offset-2 lee-header">
+                    <div class="col-xs-8 col-xs-offset-1 col-md-8 col-md-offset-2 lee-header">
                         <h1>Lee<br />Mulvey</h1>
-                        <img src="http://www.gravatar.com/avatar/a7ded1395c3373006d4c404d47f12847?s=180" class="img-responsive img-circle lee-thumb" alt="Lee Mulvey" />
+                        <img src="img/lee-thumb.jpg" class="img-circle lee-thumb" alt="Lee Mulvey" />
+                        <div class="clearfix visible-xs-block"></div>
+                        <div class="col-xs-12 lee-header-icon-alt">
+                            <a href="#"><i class="fa fa-github lee-header-icon-ea"></i></a> 
+                            <a href="#"><i class="fa fa-facebook lee-header-icon-ea"></i></a> 
+                            <a href="#"><i class="fa fa-twitter lee-header-icon-ea"></i></a> 
+                            <a href="#"><i class="fa fa-linkedin lee-header-icon-ea"></i></a> 
+                        </div>
                     </div>
-                    <div class="col-xs-1">
+                    <div class="col-md-1">
                         <ul class="sidebar-icons">
                             <li><a href="#"><i class="fa fa-github"></i></a></li>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -41,6 +49,23 @@
                             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
+                </div>
+                 <div class="row">
+                 
+                </div>
+                <div class="row">
+                    <div class="col-xs-8 col-xs-offset-1 col-md-8 col-md-offset-2 lee-header-subtext">
+                        <p class="text-center">web developer / filmmaker / musician / designer / <strong>creator.</strong></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-8 col-xs-offset-1 col-md-8 col-md-offset-2 lee-header-coming-soon">
+                        <div class="text-center" id="cta-links">
+                            <p class="text-shadow"><i class="fa fa-bolt"></i> <strong>Don't turn back yet!</strong></p>
+                            <p>Links above will show you who I am and what I've been working on.</p>
+                        </div>
+                        
+                        <p class="text-center">Currently in the process of migrating from <strong>Squarespace</strong>. I'll have a new site up over the next few weeks.</p>
                 </div>
             </header>
         </div>
